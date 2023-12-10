@@ -60,12 +60,12 @@ This workflow also requires a sample sheet which identifies test samples and con
 To run sequence alignment:
 
 ```python
-from nanopore_alignment.alignment import main_Parsed
+from nanopore_alignment.alignment import NanoAlign
 
 # Path to the directory containing 'sample_sheet.csv' and subfolders with fastq files
 
 fastq_data_path = 'path/to/your/folder_with_samplesheet_and_sub_folders'
-main_Parsed.run_wf_tb_amr(fastq_data_path)
+NanoAlign.run_wf_tb_amr(fastq_data_path)
 ```
 
 ** Note: If you want to compare the alignment result in Geneious Prime, you can use the bam file generated and the "NC_000962.3.fasta" file in the TB Data file for demo comparison.
