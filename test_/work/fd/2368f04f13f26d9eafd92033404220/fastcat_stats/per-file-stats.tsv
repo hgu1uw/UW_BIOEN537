@@ -1,0 +1,6 @@
+filename	sample_name	n_seqs	n_bases	min_length	max_length	mean_quality
+barcode93/fastq_runid_1a65a9c3f19663b68396bb51293f89dca578397a_36_0.fastq	Negative	1	204	204	204	9.61
+barcode93/fastq_runid_1a65a9c3f19663b68396bb51293f89dca578397a_10_0.fastq	Negative	28	6280	168	394	9.84
+barcode93/fastq_runid_1a65a9c3f19663b68396bb51293f89dca578397a_40_0.fastq	Negative	2	386	187	199	10.55
+barcode93/fastq_runid_1a65a9c3f19663b68396bb51293f89dca578397a_42_0.fastq	Negative	1	207	207	207	12.29
+barcode93/fastq_runid_1a65a9c3f19663b68396bb51293f89dca578397a_39_0.fastq	Negative	2	708	242	466	11.17

@@ -1,0 +1,263 @@
+{
+    "Positive": {
+        "coverage": {
+            "type": "positive_control",
+            "barcode": "barcode92",
+            "readcount": "bed_files/Positive.bedtools-coverage.bed",
+            "total_covered": 0,
+            "qc_status": "fail",
+            "fail_amplicons": {
+                "Rv0678": {
+                    "mean": 3.7974947807933193,
+                    "median": 4.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 958,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "BDQ",
+                        "CFZ"
+                    ]
+                },
+                "eis": {
+                    "mean": 0.0,
+                    "median": 0.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 916,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "KAN"
+                    ]
+                },
+                "embB": {
+                    "mean": 1.3811219946571682,
+                    "median": 1.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1123,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "EMB"
+                    ]
+                },
+                "ethA": {
+                    "mean": 1.909398814563929,
+                    "median": 2.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1181,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "ETH"
+                    ]
+                },
+                "fabG1": {
+                    "mean": 2.8410596026490067,
+                    "median": 3.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1057,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "ETH",
+                        "INH"
+                    ]
+                },
+                "gidB": {
+                    "mean": 6.414213197969543,
+                    "median": 7.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 985,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "CAP",
+                        "STM"
+                    ]
+                },
+                "gyrA": {
+                    "mean": 16.858101629913712,
+                    "median": 18.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1043,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "MXF",
+                        "LEV"
+                    ]
+                },
+                "inhA": {
+                    "mean": 19.202649006622515,
+                    "median": 20.0,
+                    "threshold": 0.8728476821192053,
+                    "lt_20x_bases": 96,
+                    "ge_20x_bases": 659,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 0.1271523178807947,
+                    "ge_20x_percent": 0.8728476821192053,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "ETH",
+                        "INH"
+                    ]
+                },
+                "katG": {
+                    "mean": 8.154497354497355,
+                    "median": 9.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 945,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "INH"
+                    ]
+                },
+                "pncA": {
+                    "mean": 3.763655462184874,
+                    "median": 4.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 952,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "PZA"
+                    ]
+                },
+                "rplC": {
+                    "mean": 0.9529170931422722,
+                    "median": 1.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 977,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "LZD"
+                    ]
+                },
+                "rpoB": {
+                    "mean": 8.510540788267644,
+                    "median": 9.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1091,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "RIF"
+                    ]
+                },
+                "rpsL": {
+                    "mean": 1.1299435028248588,
+                    "median": 1.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1062,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "STM"
+                    ]
+                },
+                "rrl": {
+                    "mean": 0.0,
+                    "median": 0.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1043,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "LZD"
+                    ]
+                },
+                "rrs": {
+                    "mean": 7.471838469713071,
+                    "median": 8.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 941,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "KAN",
+                        "AMI",
+                        "CAP",
+                        "STM"
+                    ]
+                },
+                "tlyA": {
+                    "mean": 3.3333333333333335,
+                    "median": 3.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1095,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "CAP"
+                    ]
+                }
+            },
+            "passed_amplicons": {},
+            "total_amplicons": 16
+        }
+    }
+}

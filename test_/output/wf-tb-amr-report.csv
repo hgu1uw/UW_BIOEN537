@@ -1,0 +1,2 @@
+sample,type,status,call,no_resistance_detected,undetermined,resistant,hgvs_nucleotide,hgvs_protein,passed_targets,failed_targets
+sample1,test_sample,fail,	,	,	,	,	,gidB:21.0;inhA:45.0,Rv0678:13.0;eis:18.0;embB:12.0;ethA:1.0;fabG1:4.0;gyrA:14.0;katG:18.0;pncA:16.0;rplC:3.0;rpoB:10.0;rpsL:0.0;rrl:1.0;rrs:9.0;tlyA:7.0

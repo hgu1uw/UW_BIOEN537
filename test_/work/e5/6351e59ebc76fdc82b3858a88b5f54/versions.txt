@@ -1,0 +1,4 @@
+minimap2,2.23-r1111
+samtools,1.12
+bedtools,v2.30.0
+bcftools,1.12

@@ -1,0 +1,1 @@
+2023-12-10 19:17:08	1m 25s	prickly_gautier	OK	b70b8d2fa003bf6e347dec6768fe486bae00db0a	df03f8d0-16b2-461d-bd75-23e4833b389e	nextflow run epi2me-labs/wf-tb-amr --fastq /Users/nello/PycharmProjects/pythonProject_nanopore/nanoSeq/test_/test_nanopore_alignment --sample_sheet /Users/nello/PycharmProjects/pythonProject_nanopore/nanoSeq/test_/test_nanopore_alignment/sample_sheet.csv

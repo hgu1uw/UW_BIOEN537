@@ -1,0 +1,18 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+Constructing minimap index.
+[M::mm_idx_gen::0.109*1.13] collected minimizers
+[M::mm_idx_gen::0.133*1.37] sorted minimizers
+[M::main::0.446*0.59] loaded/built the index for 1 target sequence(s)
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.452*0.59] distinct minimizers: 778043 (96.12% are singletons); average occurrences: 1.057; average spacing: 5.363; total length: 4411532
+[M::main] Version: 2.23-r1111
+[M::main] CMD: minimap2 -I 16G -x map-ont --MD -d NC_000962.3.fasta.mmi NC_000962.3.fasta
+[M::main] Real time: 0.458 sec; CPU: 0.273 sec; Peak RSS: 0.050 GB
+[M::main::0.039*1.22] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.048*1.18] mid_occ = 17
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.053*1.16] distinct minimizers: 778043 (96.12% are singletons); average occurrences: 1.057; average spacing: 5.363; total length: 4411532
+[M::worker_pipeline::0.079*1.07] mapped 34 sequences
+[M::main] Version: 2.23-r1111
+[M::main] CMD: minimap2 -x map-ont --MD -t 4 -a -A 2 -B 4 -O 4,24 -E 2,1 NC_000962.3.fasta.mmi seqs.fastq.gz
+[M::main] Real time: 0.083 sec; CPU: 0.088 sec; Peak RSS: 0.038 GB

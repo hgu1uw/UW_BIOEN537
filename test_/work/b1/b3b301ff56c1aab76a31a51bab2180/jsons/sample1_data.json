@@ -1,0 +1,469 @@
+{
+    "sample1": {
+        "amr": {
+            "type": "test_sample",
+            "barcode": "barcode79",
+            "vcf": "variants/sample1.final.vcf",
+            "resistance": {
+                "resistance_level": "NONE",
+                "resistant": {},
+                "susceptible": {
+                    "KAN": {
+                        "full-name": "kanamycin",
+                        "group": "",
+                        "drug-class": "injectable",
+                        "who-class": "",
+                        "line": "second-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "eis",
+                            "rrs"
+                        ],
+                        "variants": []
+                    },
+                    "AMI": {
+                        "full-name": "amikacin",
+                        "group": "",
+                        "drug-class": "injectable",
+                        "who-class": "",
+                        "line": "second-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "rrs"
+                        ],
+                        "variants": []
+                    },
+                    "CAP": {
+                        "full-name": "capreomycin",
+                        "group": "",
+                        "drug-class": "injectable",
+                        "who-class": "",
+                        "line": "first-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "gidB",
+                            "rrs",
+                            "tlyA"
+                        ],
+                        "variants": []
+                    },
+                    "ETH": {
+                        "full-name": "ethionamide",
+                        "group": "",
+                        "drug-class": "",
+                        "who-class": "",
+                        "line": "second-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "ethA",
+                            "fabG1",
+                            "inhA"
+                        ],
+                        "variants": []
+                    },
+                    "EMB": {
+                        "full-name": "ethambutol",
+                        "group": "",
+                        "drug-class": "",
+                        "who-class": "",
+                        "line": "first-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "embB"
+                        ],
+                        "variants": []
+                    },
+                    "INH": {
+                        "full-name": "isoniazid",
+                        "group": "",
+                        "drug-class": "",
+                        "who-class": "",
+                        "line": "first-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "fabG1",
+                            "inhA",
+                            "katG"
+                        ],
+                        "variants": []
+                    },
+                    "RIF": {
+                        "full-name": "rifampicin",
+                        "group": "",
+                        "drug-class": "",
+                        "who-class": "",
+                        "line": "first-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "rpoB"
+                        ],
+                        "variants": []
+                    },
+                    "PZA": {
+                        "full-name": "pyrazinamide",
+                        "group": "",
+                        "drug-class": "",
+                        "who-class": "",
+                        "line": "first-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "pncA"
+                        ],
+                        "variants": []
+                    },
+                    "BDQ": {
+                        "full-name": "bedaquiline",
+                        "group": "A",
+                        "drug-class": "",
+                        "who-class": "",
+                        "line": "second-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "Rv0678"
+                        ],
+                        "variants": []
+                    },
+                    "LZD": {
+                        "full-name": "linezolid",
+                        "group": "A",
+                        "drug-class": "",
+                        "who-class": "",
+                        "line": "second-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "rplC",
+                            "rrl"
+                        ],
+                        "variants": []
+                    },
+                    "CFZ": {
+                        "full-name": "clofazamine",
+                        "group": "",
+                        "drug-class": "",
+                        "who-class": "",
+                        "line": "second-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "Rv0678"
+                        ],
+                        "variants": []
+                    },
+                    "MXF": {
+                        "full-name": "moxifloxacin",
+                        "group": "A",
+                        "drug-class": "fluoroquinolones",
+                        "who-class": "",
+                        "line": "second-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "gyrA"
+                        ],
+                        "variants": []
+                    },
+                    "LEV": {
+                        "full-name": "levofloxacin",
+                        "group": "A",
+                        "drug-class": "fluoroquinolones",
+                        "who-class": "",
+                        "line": "second-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "gyrA"
+                        ],
+                        "variants": []
+                    },
+                    "STM": {
+                        "full-name": "streptomycin",
+                        "group": "",
+                        "drug-class": "",
+                        "who-class": "",
+                        "line": "second-line",
+                        "in-assay": "True",
+                        "genes": [
+                            "gidB",
+                            "rpsL",
+                            "rrs"
+                        ],
+                        "variants": []
+                    }
+                }
+            },
+            "antibiotics": {
+                "KAN": -1,
+                "AMI": -1,
+                "CAP": -1,
+                "ETH": -1,
+                "EMB": -1,
+                "INH": -1,
+                "RIF": -1,
+                "PZA": -1,
+                "BDQ": -1,
+                "LZD": -1,
+                "CFZ": -1,
+                "MXF": -1,
+                "LEV": -1,
+                "STM": -1
+            }
+        },
+        "coverage": {
+            "type": "test_sample",
+            "barcode": "barcode79",
+            "readcount": "bed_files/sample1.bedtools-coverage.bed",
+            "total_covered": 2,
+            "qc_status": "fail",
+            "fail_amplicons": {
+                "Rv0678": {
+                    "mean": 13.15866388308977,
+                    "median": 13.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 958,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "BDQ",
+                        "CFZ"
+                    ]
+                },
+                "eis": {
+                    "mean": 17.87772925764192,
+                    "median": 18.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 916,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "KAN"
+                    ]
+                },
+                "embB": {
+                    "mean": 12.008904719501336,
+                    "median": 12.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1123,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "EMB"
+                    ]
+                },
+                "ethA": {
+                    "mean": 1.4343776460626587,
+                    "median": 1.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1181,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "ETH"
+                    ]
+                },
+                "fabG1": {
+                    "mean": 4.605487228003784,
+                    "median": 4.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1057,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "ETH",
+                        "INH"
+                    ]
+                },
+                "gyrA": {
+                    "mean": 14.09012464046021,
+                    "median": 14.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1043,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "MXF",
+                        "LEV"
+                    ]
+                },
+                "katG": {
+                    "mean": 18.556613756613757,
+                    "median": 18.0,
+                    "threshold": 0.1439153439153439,
+                    "lt_20x_bases": 809,
+                    "ge_20x_bases": 136,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 0.8560846560846561,
+                    "ge_20x_percent": 0.1439153439153439,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "INH"
+                    ]
+                },
+                "pncA": {
+                    "mean": 15.578781512605042,
+                    "median": 16.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 952,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "PZA"
+                    ]
+                },
+                "rplC": {
+                    "mean": 3.4595701125895597,
+                    "median": 3.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 977,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "LZD"
+                    ]
+                },
+                "rpoB": {
+                    "mean": 9.64711274060495,
+                    "median": 10.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1091,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "RIF"
+                    ]
+                },
+                "rpsL": {
+                    "mean": 0.0,
+                    "median": 0.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1062,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "STM"
+                    ]
+                },
+                "rrl": {
+                    "mean": 1.0,
+                    "median": 1.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1043,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "LZD"
+                    ]
+                },
+                "rrs": {
+                    "mean": 9.63336875664187,
+                    "median": 9.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 941,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "KAN",
+                        "AMI",
+                        "CAP",
+                        "STM"
+                    ]
+                },
+                "tlyA": {
+                    "mean": 6.840182648401827,
+                    "median": 7.0,
+                    "threshold": 0.0,
+                    "lt_20x_bases": 1095,
+                    "ge_20x_bases": 0,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 1.0,
+                    "ge_20x_percent": 0.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": false,
+                    "antibiotics": [
+                        "CAP"
+                    ]
+                }
+            },
+            "passed_amplicons": {
+                "gidB": {
+                    "mean": 21.219289340101522,
+                    "median": 21.0,
+                    "threshold": 0.9807106598984772,
+                    "lt_20x_bases": 19,
+                    "ge_20x_bases": 966,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 0.019289340101522844,
+                    "ge_20x_percent": 0.9807106598984772,
+                    "ge_100x_percent": 0.0,
+                    "passed": true,
+                    "antibiotics": [
+                        "CAP",
+                        "STM"
+                    ]
+                },
+                "inhA": {
+                    "mean": 44.40132450331126,
+                    "median": 45.0,
+                    "threshold": 1.0,
+                    "lt_20x_bases": 0,
+                    "ge_20x_bases": 755,
+                    "ge_100x_bases": 0,
+                    "lt_20x_percent": 0.0,
+                    "ge_20x_percent": 1.0,
+                    "ge_100x_percent": 0.0,
+                    "passed": true,
+                    "antibiotics": [
+                        "ETH",
+                        "INH"
+                    ]
+                }
+            },
+            "total_amplicons": 16
+        }
+    }
+}

@@ -1,0 +1,6 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+[03:18:17 - workflow_glue] Starting entrypoint.
+Writing to /tmp/bcftools-sort.cmxp70
+Merging 0 temporary files
+Cleaning
+Done

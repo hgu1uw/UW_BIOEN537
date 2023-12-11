@@ -1,0 +1,8 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+Lines   total/split/realigned/skipped:	1429/0/0/0
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 8000
+Warning: `-D` is functional but deprecated, replaced by and alias of `-d none`.
+Lines   total/split/realigned/skipped:	0/0/0/0
+Lines   total/split/realigned/skipped:	0/0/0/0
+[03:18:11 - workflow_glue] Starting entrypoint.

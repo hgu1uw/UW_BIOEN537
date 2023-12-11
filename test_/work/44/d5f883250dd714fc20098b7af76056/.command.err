@@ -1,0 +1,42 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+This is WhatsHap 1.2.1 running under Python 3.8.12
+Working on 1 samples from 1 family
+======== Working on chromosome 'NC_000962.3'
+---- Processing individual sample1
+Using maximum coverage per sample of 15X
+Number of variants skipped due to missing genotypes: 0
+Number of remaining heterozygous variants: 2
+Reading alignments for sample 'sample1' and detecting alleles ...
+Found 22 reads covering 2 variants
+Kept 14 reads that cover at least two variants each
+Reducing coverage to at most 15X by selecting most informative reads ...
+Selected 14 reads covering 2 variants
+Best-case phasing would result in 1 non-singleton phased blocks (1 in total)
+... after read selection: 1 non-singleton phased blocks (1 in total)
+Variants covered by at least one phase-informative read in at least one individual after read selection: 2
+Phasing 1 sample by solving the MEC problem ...
+MEC cost: 30
+No. of phased blocks: 1
+Largest block contains 2 variants (100.0% of accessible variants) between position 4407588 and 4407927
+======== Writing VCF
+Done writing VCF
+
+== SUMMARY ==
+Maximum memory usage: 0.067 GB
+Time spent reading BAM/CRAM:                    0.0 s
+Time spent parsing VCF:                         0.0 s
+Time spent selecting reads:                     0.0 s
+Time spent phasing:                             0.0 s
+Time spent writing VCF:                         0.0 s
+Time spent finding components:                  0.0 s
+Time spent on rest:                             0.0 s
+Total elapsed time:                             0.1 s
+[03:18:18 - workflow_glue] Starting entrypoint.
+[03:18:18 - workflow_glue.process_wh] 
+                PHASE GROUP: 4407588
+[03:18:18 - workflow_glue.process_wh] 
+                PHASE GROUP: 4407588
+Writing to /tmp/bcftools-sort.wOrnrl
+Merging 1 temporary files
+Cleaning
+Done

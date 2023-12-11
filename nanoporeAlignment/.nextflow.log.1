@@ -1,0 +1,235 @@
+Dec-10 08:32:44.094 [main] DEBUG nextflow.cli.Launcher - $> nextflow run epi2me-labs/wf-tb-amr --fastq /Users/nello/PycharmProjects/pythonProject_nanopore/fastq/running --sample_sheet /Users/nello/PycharmProjects/pythonProject_nanopore/fastq/running/sample_sheet.csv
+Dec-10 08:32:44.133 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.0
+Dec-10 08:32:44.152 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/nello/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.2,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.0
+Dec-10 08:32:44.157 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Dec-10 08:32:44.158 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Dec-10 08:32:44.163 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Dec-10 08:32:44.168 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Dec-10 08:32:44.175 [main] DEBUG nextflow.scm.ProviderConfig - Using SCM config path: /Users/nello/.nextflow/scm
+Dec-10 08:32:44.514 [main] DEBUG nextflow.scm.AssetManager - Git config: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/.git/config; branch: master; remote: origin; url: https://github.com/epi2me-labs/wf-tb-amr.git
+Dec-10 08:32:44.522 [main] DEBUG nextflow.scm.RepositoryFactory - Found Git repository result: [RepositoryFactory]
+Dec-10 08:32:44.526 [main] DEBUG nextflow.scm.AssetManager - Git config: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/.git/config; branch: master; remote: origin; url: https://github.com/epi2me-labs/wf-tb-amr.git
+Dec-10 08:32:45.161 [main] INFO  nextflow.scm.AssetManager - NOTE: Your local project version looks outdated - a different revision is available in the remote repository [e2ce9c55b0]
+Dec-10 08:32:45.167 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/nextflow.config
+Dec-10 08:32:45.167 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/nextflow.config
+Dec-10 08:32:45.172 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Dec-10 08:32:45.230 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Dec-10 08:32:45.230 [main] INFO  nextflow.cli.CmdRun - Launching `https://github.com/epi2me-labs/wf-tb-amr` [gloomy_hilbert] DSL2 - revision: b70b8d2fa0 [master]
+Dec-10 08:32:45.230 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Dec-10 08:32:45.230 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Dec-10 08:32:45.231 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/nello/.nextflow/secrets/store.json
+Dec-10 08:32:45.232 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@5c82031b] - activable => nextflow.secret.LocalSecretsProvider@5c82031b
+Dec-10 08:32:45.261 [main] DEBUG nextflow.Session - Session UUID: c9a5953d-4bff-4578-a95a-7eed9212a601
+Dec-10 08:32:45.261 [main] DEBUG nextflow.Session - Run name: gloomy_hilbert
+Dec-10 08:32:45.261 [main] DEBUG nextflow.Session - Executor pool size: 12
+Dec-10 08:32:45.266 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Dec-10 08:32:45.268 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Dec-10 08:32:45.282 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.0 build 5889
+  Created: 15-10-2023 15:07 UTC (08:07 PDT)
+  System: Mac OS X 14.1.2
+  Runtime: Groovy 3.0.19 on OpenJDK 64-Bit Server VM 17.0.6+10
+  Encoding: UTF-8 (UTF-8)
+  Process: 39136@nellos-MacBook-Pro.local [127.0.0.1]
+  CPUs: 12 - Mem: 16 GB (144.4 MB) - Swap: 2 GB (1.2 GB)
+Dec-10 08:32:45.314 [main] DEBUG nextflow.Session - Work-dir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work [Mac OS X]
+Dec-10 08:32:45.322 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Dec-10 08:32:45.326 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Dec-10 08:32:45.356 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Dec-10 08:32:45.361 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Dec-10 08:32:45.412 [main] DEBUG nextflow.Session - Session start
+Dec-10 08:32:45.413 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/output/execution/trace.txt
+Dec-10 08:32:45.418 [main] DEBUG nextflow.Session - Using default localLib path: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/lib
+Dec-10 08:32:45.419 [main] DEBUG nextflow.Session - Adding to the classpath library: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/lib
+Dec-10 08:32:45.419 [main] DEBUG nextflow.Session - Adding to the classpath library: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/lib/nfcore_external_java_deps.jar
+Dec-10 08:32:46.346 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Dec-10 08:32:46.586 [main] INFO  nextflow.Nextflow - 
+[0;92m||||||||||   [0m[2m_____ ____ ___ ____  __  __ _____      _       _
+[0;92m||||||||||  [0m[2m| ____|  _ \_ _|___ \|  \/  | ____|    | | __ _| |__  ___
+[0;33m|||||       [0m[2m|  _| | |_) | |  __) | |\/| |  _| _____| |/ _` | '_ \/ __|
+[0;33m|||||       [0m[2m| |___|  __/| | / __/| |  | | |__|_____| | (_| | |_) \__ \
+[0;94m||||||||||  [0m[2m|_____|_|  |___|_____|_|  |_|_____|    |_|\__,_|_.__/|___/
+[0;94m||||||||||  [0m[1mwf-tb-amr v1.0.14-gb70b8d2[0m
+[2m--------------------------------------------------------------------------------[0m
+[1mCore Nextflow options[0m
+  [0;34mrevision       : [0;32mmaster[0m
+  [0;34mrunName        : [0;32mgloomy_hilbert[0m
+  [0;34mcontainerEngine: [0;32mdocker[0m
+  [0;34mcontainer      : [0;32m[withLabel:microbial:ontresearch/wf-tb-amr:sha837f62ff13f7f65a6d58f4d0aff6a9f86dda6fb7][0m
+  [0;34mlaunchDir      : [0;32m/Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment[0m
+  [0;34mworkDir        : [0;32m/Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work[0m
+  [0;34mprojectDir     : [0;32m/Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr[0m
+  [0;34muserName       : [0;32mnello[0m
+  [0;34mprofile        : [0;32mstandard[0m
+  [0;34mconfigFiles    : [0;32m/Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/nextflow.config[0m
+
+[1mInput Options[0m
+  [0;34mfastq          : [0;32m/Users/nello/PycharmProjects/pythonProject_nanopore/fastq/running[0m
+
+[1mSample Options[0m
+  [0;34msample_sheet   : [0;32m/Users/nello/PycharmProjects/pythonProject_nanopore/fastq/running/sample_sheet.csv[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+[2m--------------------------------------------------------------------------------[0m
+If you use epi2me-labs/wf-tb-amr for your analysis please cite:
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+
+[2m--------------------------------------------------------------------------------[0m
+This is epi2me-labs/wf-tb-amr v1.0.14-gb70b8d2.
+[2m--------------------------------------------------------------------------------[0m
+Dec-10 08:32:47.271 [main] INFO  nextflow.Nextflow - Checking fastq input.
+Dec-10 08:32:47.305 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:microbial` matches labels `microbial` for process with name validate_sample_sheet
+Dec-10 08:32:47.312 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-10 08:32:47.312 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-10 08:32:47.315 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Dec-10 08:32:47.317 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=8 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Dec-10 08:32:47.318 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Dec-10 08:32:47.370 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `threads` -- Initialise it to a default value eg. `params.threads = some_value`
+Dec-10 08:32:47.377 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:microbial` matches labels `microbial` for process with name fastcat
+Dec-10 08:32:47.378 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-10 08:32:47.378 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-10 08:32:47.383 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:microbial` matches labels `microbial` for process with name pipeline:getVersions
+Dec-10 08:32:47.383 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-10 08:32:47.383 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-10 08:32:47.386 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:microbial` matches labels `microbial` for process with name pipeline:getParams
+Dec-10 08:32:47.386 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-10 08:32:47.386 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-10 08:32:47.388 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:microbial` matches labels `microbial` for process with name pipeline:alignReads
+Dec-10 08:32:47.388 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-10 08:32:47.388 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-10 08:32:47.390 [main] WARN  nextflow.Nextflow - Using all data, downsampling level has not been specified.
+Dec-10 08:32:47.392 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:microbial` matches labels `microbial` for process with name pipeline:mpileup
+Dec-10 08:32:47.392 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-10 08:32:47.392 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-10 08:32:47.395 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:microbial` matches labels `microbial` for process with name pipeline:whatshap
+Dec-10 08:32:47.395 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-10 08:32:47.395 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-10 08:32:47.398 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:microbial` matches labels `microbial` for process with name pipeline:countReadsRegions
+Dec-10 08:32:47.398 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-10 08:32:47.398 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-10 08:32:47.409 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:microbial` matches labels `microbial` for process with name pipeline:report
+Dec-10 08:32:47.409 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-10 08:32:47.410 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-10 08:32:47.412 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:microbial` matches labels `microbial` for process with name pipeline:reportSingle
+Dec-10 08:32:47.412 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-10 08:32:47.412 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-10 08:32:47.415 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:microbial` matches labels `microbial` for process with name output
+Dec-10 08:32:47.415 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-10 08:32:47.415 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-10 08:32:47.416 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: pipeline:reportSingle, countReadsRegions, pipeline:getParams, pipeline:alignReads, pipeline:report, validate_sample_sheet, reportSingle, pipeline:getVersions, downSample, alignReads, output, move_or_compress, pipeline:countReadsRegions, fastcat, report, getVersions, pipeline:mpileup, pipeline:whatshap, mpileup, whatshap, getParams
+Dec-10 08:32:47.416 [main] DEBUG nextflow.Session - Igniting dataflow network (14)
+Dec-10 08:32:47.416 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > validate_sample_sheet
+Dec-10 08:32:47.418 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > fastcat
+Dec-10 08:32:47.418 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > pipeline:getVersions
+Dec-10 08:32:47.418 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > pipeline:getParams
+Dec-10 08:32:47.418 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > pipeline:alignReads
+Dec-10 08:32:47.418 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > pipeline:mpileup
+Dec-10 08:32:47.418 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > pipeline:whatshap
+Dec-10 08:32:47.418 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > pipeline:countReadsRegions
+Dec-10 08:32:47.427 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > pipeline:report
+Dec-10 08:32:47.427 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > pipeline:reportSingle
+Dec-10 08:32:47.427 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > output
+Dec-10 08:32:47.427 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_035e3f0cb313b1dc: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/./lib/fastqingress.nf
+  Script_ab729c3d951839ba: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/main.nf
+Dec-10 08:32:47.427 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Dec-10 08:32:47.427 [main] DEBUG nextflow.Session - Session await
+Dec-10 08:32:47.455 [Actor Thread 11] DEBUG nextflow.util.CacheHelper - Hash asset file sha-256: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/bin/workflow-glue
+Dec-10 08:32:47.477 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:32:47.478 [Task submitter] INFO  nextflow.Session - [f5/708d8d] Submitted process > pipeline:getVersions
+Dec-10 08:32:47.486 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:32:47.487 [Task submitter] INFO  nextflow.Session - [98/edb091] Submitted process > pipeline:getParams
+Dec-10 08:32:47.490 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:32:47.490 [Task submitter] INFO  nextflow.Session - [f5/6536d2] Submitted process > validate_sample_sheet
+Dec-10 08:32:48.664 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: pipeline:getParams; status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/98/edb091a8ad9e6b93980822198269a8]
+Dec-10 08:32:49.276 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: pipeline:getVersions; status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/f5/708d8d0fda5a5dd56dedd143406b27]
+Dec-10 08:32:52.204 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: validate_sample_sheet; status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/f5/6536d2bd293b9767e836961306ad01]
+Dec-10 08:32:52.215 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:32:52.215 [Task submitter] INFO  nextflow.Session - [8a/ec4699] Submitted process > fastcat (3)
+Dec-10 08:32:52.218 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:32:52.218 [Task submitter] INFO  nextflow.Session - [5f/090767] Submitted process > fastcat (1)
+Dec-10 08:32:52.221 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:32:52.221 [Task submitter] INFO  nextflow.Session - [5c/f676fe] Submitted process > fastcat (2)
+Dec-10 08:32:53.596 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: fastcat (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/8a/ec469997b9d07b0c46e7c6d3582c1c]
+Dec-10 08:32:53.601 [Actor Thread 13] DEBUG nextflow.util.CacheHelper - Hash asset file sha-256: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/data/primer_schemes/V3/NC_000962.3.fasta
+Dec-10 08:32:53.753 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: fastcat (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/5c/f676fe20c05642fd150528a4afedfe]
+Dec-10 08:32:53.775 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: fastcat (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/5f/090767330e64815a03cf80faf37ff8]
+Dec-10 08:32:53.778 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:32:53.778 [Task submitter] INFO  nextflow.Session - [62/3441a4] Submitted process > pipeline:alignReads (1)
+Dec-10 08:32:53.787 [Actor Thread 9] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 3; slices: 1; internal sort time: 0.007 s; external sort time: 0.001 s; total time: 0.008 s
+Dec-10 08:32:53.791 [Actor Thread 9] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/collect-file/0b4bcd794e2e43806e0d211a1276c2d3
+Dec-10 08:32:53.797 [Actor Thread 9] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /var/folders/51/r7qbz2_51n76zh5wjfw1bjqh0000gn/T/nxf-3097386789032861874
+Dec-10 08:32:56.528 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: pipeline:alignReads (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/62/3441a40339acbb677605f668062d49]
+Dec-10 08:32:56.531 [Actor Thread 7] DEBUG nextflow.util.CacheHelper - Hash asset file sha-256: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/data/primer_schemes/V3/TB_amplicons.bed
+Dec-10 08:32:56.531 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:32:56.531 [Task submitter] INFO  nextflow.Session - [83/1a944d] Submitted process > pipeline:alignReads (2)
+Dec-10 08:32:56.545 [Actor Thread 3] DEBUG nextflow.util.CacheHelper - Hash asset file sha-256: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/data/template.vcf
+Dec-10 08:32:56.545 [Actor Thread 3] DEBUG nextflow.util.CacheHelper - Hash asset file sha-256: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/data/bcftools_annotate_header.txt
+Dec-10 08:32:56.546 [Actor Thread 3] DEBUG nextflow.util.CacheHelper - Hash asset file sha-256: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/data/primer_schemes/V3/variant_db.sorted.normalised.vcf.gz
+Dec-10 08:32:56.546 [Actor Thread 3] DEBUG nextflow.util.CacheHelper - Hash asset file sha-256: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/data/primer_schemes/V3/variant_db.sorted.normalised.vcf.gz.tbi
+Dec-10 08:32:56.547 [Actor Thread 3] DEBUG nextflow.util.CacheHelper - Hash asset file sha-256: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/data/primer_schemes/V3/NC_000962.3.gb
+Dec-10 08:33:02.001 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: pipeline:alignReads (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/83/1a944d198d11c5aa3394e872c79693]
+Dec-10 08:33:02.011 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:02.012 [Task submitter] INFO  nextflow.Session - [ad/d2c43a] Submitted process > pipeline:alignReads (3)
+Dec-10 08:33:04.818 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: pipeline:alignReads (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/ad/d2c43a59f83e613e45a16025c2b540]
+Dec-10 08:33:04.821 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:04.821 [Task submitter] INFO  nextflow.Session - [e7/4132a7] Submitted process > pipeline:countReadsRegions (1)
+Dec-10 08:33:04.824 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:04.825 [Task submitter] INFO  nextflow.Session - [16/14998a] Submitted process > pipeline:countReadsRegions (2)
+Dec-10 08:33:04.829 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:04.829 [Task submitter] INFO  nextflow.Session - [fb/29c550] Submitted process > pipeline:countReadsRegions (3)
+Dec-10 08:33:04.833 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:04.833 [Task submitter] INFO  nextflow.Session - [6d/3da07e] Submitted process > output (1)
+Dec-10 08:33:06.197 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 16; name: output (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/6d/3da07e20c4dc5469dc6366859896bf]
+Dec-10 08:33:06.203 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Dec-10 08:33:06.334 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: pipeline:countReadsRegions (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/fb/29c5504e4acc6f66fce247ff27918f]
+Dec-10 08:33:06.387 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: pipeline:countReadsRegions (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/16/14998a6c93032fbd699520341ee4d7]
+Dec-10 08:33:06.473 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: pipeline:countReadsRegions (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/e7/4132a799b91d4108ee7fad83c25aa2]
+Dec-10 08:33:06.476 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:06.476 [Task submitter] INFO  nextflow.Session - [0d/73d5ea] Submitted process > pipeline:mpileup (1)
+Dec-10 08:33:23.459 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: pipeline:mpileup (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/0d/73d5eac4953c78971dd310db918b19]
+Dec-10 08:33:23.462 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:23.462 [Task submitter] INFO  nextflow.Session - [19/b6f19c] Submitted process > pipeline:mpileup (2)
+Dec-10 08:33:27.686 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: pipeline:mpileup (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/19/b6f19cd97573d4e6a952145091eb9a]
+Dec-10 08:33:27.689 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:27.689 [Task submitter] INFO  nextflow.Session - [78/f08fce] Submitted process > pipeline:mpileup (3)
+Dec-10 08:33:45.144 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: pipeline:mpileup (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/78/f08fce1975feb874ab54b8943a901a]
+Dec-10 08:33:45.148 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:45.148 [Task submitter] INFO  nextflow.Session - [6c/53c24e] Submitted process > pipeline:whatshap (1)
+Dec-10 08:33:45.150 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:45.150 [Task submitter] INFO  nextflow.Session - [21/5b38cb] Submitted process > pipeline:whatshap (2)
+Dec-10 08:33:45.152 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:45.152 [Task submitter] INFO  nextflow.Session - [f2/68ecf8] Submitted process > pipeline:whatshap (3)
+Dec-10 08:33:51.622 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 18; name: pipeline:whatshap (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/21/5b38cb96f7e4328ec2a8598cc51b57]
+Dec-10 08:33:52.635 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 17; name: pipeline:whatshap (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/6c/53c24ef45e8ac2de2dd0d47e523dd5]
+Dec-10 08:33:52.646 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 19; name: pipeline:whatshap (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/f2/68ecf89036a7eadcff87430fb0eeea]
+Dec-10 08:33:52.650 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:52.650 [Task submitter] INFO  nextflow.Session - [ae/5c74f0] Submitted process > output (2)
+Dec-10 08:33:52.669 [Actor Thread 2] DEBUG nextflow.util.CacheHelper - Hash asset file sha-256: /Users/nello/.nextflow/assets/epi2me-labs/wf-tb-amr/data/primer_schemes/V3/report_config.eng.json
+Dec-10 08:33:52.673 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:33:52.673 [Task submitter] INFO  nextflow.Session - [98/a39906] Submitted process > pipeline:report (1)
+Dec-10 08:33:53.474 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 21; name: output (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/ae/5c74f0a981a934821a5252266bba70]
+Dec-10 08:34:00.795 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 20; name: pipeline:report (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/98/a39906821762f744eecd9cb81ea9f6]
+Dec-10 08:34:00.824 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:34:00.824 [Task submitter] INFO  nextflow.Session - [09/82ddc6] Submitted process > output (3)
+Dec-10 08:34:00.844 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:34:00.844 [Task submitter] INFO  nextflow.Session - [87/c104e4] Submitted process > pipeline:reportSingle (1)
+Dec-10 08:34:02.037 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 22; name: output (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/09/82ddc631e6af30c509cc4814db04a8]
+Dec-10 08:34:05.456 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 23; name: pipeline:reportSingle (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/87/c104e45f138046592ec1b8bf66f33a]
+Dec-10 08:34:05.470 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-10 08:34:05.471 [Task submitter] INFO  nextflow.Session - [94/71eb66] Submitted process > output (4)
+Dec-10 08:34:06.203 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 24; name: output (4); status: COMPLETED; exit: 0; error: -; workDir: /Users/nello/PycharmProjects/pythonProject_nanopore/Nanoalign/alignment/work/94/71eb6631cccde421944e4a070e577d]
+Dec-10 08:34:06.204 [main] DEBUG nextflow.Session - Session await > all processes finished
+Dec-10 08:34:06.205 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Dec-10 08:34:06.206 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Dec-10 08:34:06.208 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Dec-10 08:34:07.382 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=24; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=3m 39s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=4; peakCpus=4; peakMemory=0; ]
+Dec-10 08:34:07.382 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Dec-10 08:34:07.385 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Dec-10 08:34:08.177 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Dec-10 08:34:08.333 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Dec-10 08:34:08.343 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Dec-10 08:34:08.344 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

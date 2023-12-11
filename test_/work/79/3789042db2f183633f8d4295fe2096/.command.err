@@ -1,0 +1,6 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+Processing barcode79/fastq_runid_1a65a9c3f19663b68396bb51293f89dca578397a_13_0.fastq
+Processing barcode79/fastq_runid_1a65a9c3f19663b68396bb51293f89dca578397a_26_0.fastq
+Processing barcode79/fastq_runid_1a65a9c3f19663b68396bb51293f89dca578397a_40_0.fastq
+Processing barcode79/fastq_runid_1a65a9c3f19663b68396bb51293f89dca578397a_28_0.fastq
+Processing barcode79/fastq_runid_1a65a9c3f19663b68396bb51293f89dca578397a_20_0.fastq

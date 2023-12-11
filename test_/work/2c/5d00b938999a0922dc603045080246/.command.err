@@ -1,0 +1,19 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+This is WhatsHap 1.2.1 running under Python 3.8.12
+Working on 1 samples from 1 family
+
+== SUMMARY ==
+Maximum memory usage: 0.058 GB
+Time spent reading BAM/CRAM:                    0.0 s
+Time spent parsing VCF:                         0.0 s
+Time spent selecting reads:                     0.0 s
+Time spent phasing:                             0.0 s
+Time spent writing VCF:                         0.0 s
+Time spent finding components:                  0.0 s
+Time spent on rest:                             0.0 s
+Total elapsed time:                             0.0 s
+[03:18:18 - workflow_glue] Starting entrypoint.
+Writing to /tmp/bcftools-sort.6B4o6l
+Merging 0 temporary files
+Cleaning
+Done
