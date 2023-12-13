@@ -11,7 +11,7 @@ def setup_environment():
             subprocess.run(check_command, stderr=subprocess.STDOUT, check=True)
             print(f"{name} is already installed.")
         except subprocess.CalledProcessError:
-            print(f"Installing {name}...")
+            print(f"you should install {name}...")
             for command in install_commands:
                 subprocess.run(command, check=True)
 

@@ -1,0 +1,4 @@
+barcode,alias,type
+barcode79,sample1,test_sample
+barcode93,Negative,no_template_control
+barcode92,Positive,positive_control
