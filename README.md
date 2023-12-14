@@ -55,12 +55,12 @@ This workflow also requires a sample sheet which identifies test samples and con
 To run sequence alignment:
 
 ```python
-from nanoSeq.nanoporeAlignment import nanoAlign
+from nanoporeAlignment import nanoAlign
 
 # Path to the directory containing 'sample_sheet.csv' and subfolders with fastq files
 
 fastq_data_path = 'path/to/your/folder_with_samplesheet_and_sub_folders'
-main_Parsed.run_wf_tb_amr(fastq_data_path)
+nanoAlign.main(fastq_data_path)
 ```
 
 ** Note: If you want to compare the alignment result in Geneious Prime, you can use the bam file generated and the "NC_000962.3.fasta" file in the TB Data file for demo comparison.
@@ -71,12 +71,12 @@ main_Parsed.run_wf_tb_amr(fastq_data_path)
 To design primers from a DNA sequence:
 
 ```python
-from nanoSeq.primer_design import primerdesign
+from primer_design import primerdesign
 
 # Path to your FASTA file - e.g. the path to the 'reference_primer' file in the 'test_primer' folder
 fasta_file = 'path/to/your/fasta/file.fasta'
-sequence = primer_design.read_fasta(fasta_file)
-primers = primer_design.main(sequence)
+
+primerdesign.main(fasta_file)
 
 # Process or print your primers as needed
 
@@ -135,17 +135,18 @@ To set up a local environment for package testing, follow these steps:
     source test_env/bin/activate
     ```
 
-4. **List installed packages**: You can list all the installed packages in the current Python environment with the following command:
+4. **Install the package**: Navigate to the directory containing the .whl file (the `<dist>` directory) and install the package in the current Python environment:
+
+    ```bash
+    pip install nanoSeq-0.1-py3-none-any.whl
+    ```
+    
+5. **List installed packages**: You can list all the installed packages in the current Python environment with the following command:
 
     ```bash
     pip list
     ```
 
-5. **Install the package**: Navigate to the directory containing the .whl file (the `<dist>` directory) and install the package in the current Python environment:
-
-    ```bash
-    pip install nanoSeq-0.1-py3-none-any.whl
-    ```
 
 Now, your local environment is set up and ready for package testing.
 
