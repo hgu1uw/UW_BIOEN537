@@ -1,8 +1,8 @@
 import unittest
 #from nanoSeq.nanoporeAlignment import nanoAlign
 #from nanoSeq.primer_design import primerdesign
-from nanoporeAlignment import nanoAlign
-from primer_design import primerdesign
+from nanoSeq.nanoporeAlignment import nanoAlign
+from nanoSeq.primer_design import primerdesign
 import os
 
 class TestNanoSeq(unittest.TestCase):

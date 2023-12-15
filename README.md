@@ -64,7 +64,7 @@ This workflow also requires a sample sheet which identifies test samples and con
 To run sequence alignment:
 
 ```python
-from nanoporeAlignment import nanoAlign
+from nanoSeq.nanoporeAlignment import nanoAlign
 
 # Path to the directory containing 'sample_sheet.csv' and subfolders with fastq files
 
@@ -80,7 +80,7 @@ nanoAlign.main(fastq_data_path)
 To design primers from a DNA sequence:
 
 ```python
-from primer_design import primerdesign
+from nanoSeq.primer_design import primerdesign
 
 # Path to your FASTA file - e.g. the path to the 'reference_primer' file in the 'test_primer' folder
 fasta_file = 'path/to/your/fasta/file.fasta'
