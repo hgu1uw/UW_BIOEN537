@@ -30,7 +30,9 @@ These are external dependencies that cannot be installed via pip and need to be 
 
 To install the `nanopore_alignment` package, follow these steps:
 
+   ```
    pip install nanoSeq==0.1
+   ```
 
 ## Usage
 
