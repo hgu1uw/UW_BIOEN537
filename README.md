@@ -8,8 +8,7 @@ A Python package for nanopore sequence alignment and primer design. This package
 The primer Design function is to optimize primer design from a given fasta file. Currently, it is working with a single sequence (a single fasta file)
 
 
-The Sequence Alignment function is a subprocess of the "wf_tb_amr" workfrom from Nanopore Sequencing. It is a workflow for determining the antibiotic resistance of Mycobacterium tuberculosis targeted sequencing samples. It handles multiplexed sequencing runs and provides clear reports summarizing the predicted resistance profile of each sample based on genetic variants discovered.
-
+The Sequence Alignment function is a subprocess of the "wf_tb_amr" workflow from Nanopore Sequencing. It is a workflow for determining the antibiotic resistance of Mycobacterium tuberculosis targeted sequencing samples and provides the alignment information to the reference genome.
 ## Prerequisites
 
 Before installing `nanoSeq`, ensure that you have the following software installed on your system:
@@ -39,6 +38,14 @@ To install the `nanopore_alignment` package, follow these steps:
 
 Important: `fastq_data_path` should be the directory containing the `sample_sheet.csv` and the subfolders with the fastq files, not the folder directly containing the fastq files.
 e.g. The test_nanopore folder contains the accurate structure and all the files to run the function. Your 'fastq_data_path' should be pointing to this folder instead of the individual fastq files.
+```
++-- ./fastq_data_path/
+|   +-- sample_sheet.csv
+|   +-- /barcode00/
+|       +-- barcode00_sample.fastq(.gz)
+|   +-- /barcode01/
+|       +-- barcode01_sample.fastq(.gz)
+```
 
 This workflow also requires a sample sheet which identifies test samples and controls. The sample sheet must have three columns: `barcode`, `alias`, and `type`:
 - `barcode`: the barcode of the sample (e.g., barcode02).
@@ -113,7 +120,7 @@ If all the tests pass, this indicates that the functions in the `nanoAlign` and 
 
 If you are testing the software locally, from the whl file, the following needs to be done in order to setup the veritual environment:
 
-## Local Environment Setup
+## Local Virtual Environment Setup (This is for testing the package locally without downloading from PyPI) 
 
 To set up a local environment for package testing, follow these steps:
 
